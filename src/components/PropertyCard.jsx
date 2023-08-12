@@ -6,7 +6,7 @@ const PropertyCard = (props) => {
   ,category} = props.property;
   // console.log(price)
   return (
-    <div className="flex w-96 justify-center items-center flex-wrap gap-5 m-5 transition-transform transform hover:scale-105">
+    <div className="flex w-96 justify-center items-center flex-wrap gap-5 m-5 transition-transform transform hover:scale-105 ">
       <div className="max-w-sm w-full rounded-lg overflow-hidden shadow-md border border-gray-300 bg-white transition-transform transform hover:scale-105">
         <img src={coverPhoto.url} alt="House_Image" className="w-full h-48 object-cover" />
         <div className="px-6 py-4">

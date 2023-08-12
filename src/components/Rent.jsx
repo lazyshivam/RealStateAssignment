@@ -81,7 +81,7 @@ const Rent = () => {
     };
 
     return (
-        <div className='container'>
+        <div className='container scroll-smooth '>
             <div className='w-4/5  mx-auto flex justify-between  mt-10'>
                 <h1 className='inline-block text-2xl  font-bold'>
                     Search properties to rent
@@ -189,7 +189,7 @@ const Rent = () => {
                     <button type='submit' className='bg-blue-500 px-6 my-2 rounded-md text-lg text-white hover:bg-blue-400'>Search</button>
                 </form>
             </div>
-            <div className="mt-10 margin-auto  flex flex-wrap justify-center ">
+            <div className="mt-10 margin-auto scroll-smooth flex flex-wrap justify-center ">
                 {
                     isLoading ? (
                         // Display loading spinner while data is being fetched
