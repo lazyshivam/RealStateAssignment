@@ -2,7 +2,7 @@ import React from 'react';
 import millify from 'millify';
 const PropertyCard = (props) => {
 
-  const { price, rentFrequency, area, title, coverPhoto, rooms, baths, furnishingStatus,isVerified
+  const { price, rentFrequency, area, title, coverPhoto, rooms, baths,isVerified
   ,category} = props.property;
   // console.log(price)
   return (
