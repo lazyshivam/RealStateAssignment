@@ -48,7 +48,7 @@ const Rent = () => {
     }, []);
 
     
-
+   
     const formvalue = (e) => {
         setSearchform((searchform) => ({
             ...searchform,
@@ -57,7 +57,7 @@ const Rent = () => {
     };
 
     const [searchTerm, setSearchTerm] = useState('');
-
+    //filter the search term
     const filterPropertiesByRooms = (term) => {
         if (!term) {
             return properties; // Return all properties if no search term
