@@ -30,7 +30,7 @@ const Rent = () => {
                     areaMax: searchform.area
                 },
                 headers: {
-                    'X-RapidAPI-Key': '39b48fd2demshe5b3441d3e8170dp17328ejsn434ac11a856c',
+                    'X-RapidAPI-Key': 'bd6841630bmshc445e9d61fb27dfp13c1a6jsnd068c3bfffeb',
                     'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
                 }
             });
@@ -45,6 +45,7 @@ const Rent = () => {
     useEffect(() => {
         // Fetch data once
         fetchProperties();
+        // eslint-disable-next-line
     }, []);
 
     
